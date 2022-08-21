@@ -15,7 +15,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String serverUp() {
-        return "serverUp 0.1";
+        return "serverUp";
     }
 
 }

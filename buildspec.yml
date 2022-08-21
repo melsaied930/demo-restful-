@@ -52,7 +52,7 @@ phases:
 #    run-as: Linux-user-name
 #    on-failure: ABORT | CONTINUE
     commands:
-      - echo Entered the build phase...
+      - echo Entered the build phase..................................................
       - mvn clean package
 #    finally:
 #      - command
@@ -61,7 +61,7 @@ phases:
 #    run-as: Linux-user-name
 #    on-failure: ABORT | CONTINUE
     commands:
-      - echo Build completed successfully...
+      - echo Build completed successfully..................................................
 #      - command
 #    finally:
 #      - command
